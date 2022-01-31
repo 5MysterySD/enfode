@@ -1,0 +1,41 @@
+{
+    "name": "ENCODE-V2",
+    "description": "Video Encoder",
+    "keywords": [
+        "telegram"
+    ],
+    "repository": "https://github.com/5MysterySD/enfode",
+    "website": "https://t.me/FuZionX",
+    "success_url": "https://t.me/FuZionX",
+    "env": {
+        "API_ID": {
+            "description": "Get it by creating an app on\u00a0https",
+            "required": "True",
+            "value": "//my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "GET IT BY CREATING AN APP ON\u00a0HTTPS",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Get it by creating a bot on\u00a0https",
+            "required": "True",
+            "value": "//t.me/BotFather"
+        },
+        "DOWNLOAD_DIR": {
+            "description": "(Optional) Temporary download directory to keep downloaded files.",
+            "required": "False"
+        },
+        "SUDO_USERS": {
+            "description": "Chat identifier of the sudo user. For multiple users use space as seperator.",
+            "required": "False"
+        }
+    },
+    "stack": "container",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
