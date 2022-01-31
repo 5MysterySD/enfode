@@ -11,7 +11,6 @@
         "API_ID": {
             "description": "Get it by creating an app on\u00a0https",
             "required": "True",
-            "value": "//my.telegram.org"
         },
         "API_HASH": {
             "description": "GET IT BY CREATING AN APP ON\u00a0HTTPS",
