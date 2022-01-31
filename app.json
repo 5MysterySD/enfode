@@ -1,17 +1,17 @@
 {
     "name": "ENCODE-V2",
     "description": "Video Encoder",
+    "logo": "https://small-sharp-tool.com/logo.svg",
     "keywords": [
         "telegram"
     ],
     "repository": "https://github.com/5MysterySD/enfode",
     "website": "https://t.me/FuZionX",
-    "logo": "https://small-sharp-tool.com/logo.svg",
-    "success_url": "https://t.me/FuZionX",
+    "success_url": "https://github.com/5MysterySD/enfode",
     "env": {
         "API_ID": {
             "description": "Get it by creating an app on\u00a0https",
-            "required": "True",
+            "required": "True"
         },
         "API_HASH": {
             "description": "GET IT BY CREATING AN APP ON\u00a0HTTPS",
@@ -19,7 +19,7 @@
         },
         "BOT_TOKEN": {
             "description": "Get it by creating a bot on\u00a0https",
-            "required": "True",
+            "required": "True"
         },
         "DOWNLOAD_DIR": {
             "description": "(Optional) Temporary download directory to keep downloaded files.",
