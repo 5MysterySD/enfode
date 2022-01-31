@@ -6,6 +6,7 @@
     ],
     "repository": "https://github.com/5MysterySD/enfode",
     "website": "https://t.me/FuZionX",
+    "logo": "https://small-sharp-tool.com/logo.svg",
     "success_url": "https://t.me/FuZionX",
     "env": {
         "API_ID": {
@@ -19,7 +20,6 @@
         "BOT_TOKEN": {
             "description": "Get it by creating a bot on\u00a0https",
             "required": "True",
-            "value": "//t.me/BotFather"
         },
         "DOWNLOAD_DIR": {
             "description": "(Optional) Temporary download directory to keep downloaded files.",
